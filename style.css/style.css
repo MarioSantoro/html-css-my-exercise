@@ -1,0 +1,116 @@
+        /* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.text-white{
+    color: white;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.trans {
+    background: rgb(255, 255, 255, 0.9);
+}
+
+.trasparent{
+   mix-blend-mode:multiply;
+   text-shadow: 0 5px 10px rgba(0,0,0,1);
+   text-transform: uppercase;
+   font-size: 5rem;
+}
+.vertical-center{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+                /* CSS */
+
+header > section.upper{
+    background-color: #30333a;
+    padding: .65rem 0;
+}
+
+section.upper > div.container{
+    justify-content: end;
+}
+
+ul{
+    list-style-type: none;
+    gap: 1.8rem;
+}
+
+ul li img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+section.lower{
+    padding: .65rem 0;
+}
+
+section.lower > div.container{
+    justify-content: space-between;
+}
+
+section.lower ul{
+    gap: 5rem;
+}
+
+section.lower > div.container div.ul ,section.lower > div.container div.ul ul{
+    align-items: center;
+}
+
+section.lower > div.container div.ul  li:last-of-type{
+    border: 3px solid #e45e35;
+    padding: 5px 10px;
+    color: #e45e35;
+}
+
+section.main-upper{
+    background-image: url(../img/headerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+div.jumbotron > h1{
+    margin: 1.5rem 0;
+}
+
+div.jumbotron > h2{
+    color: #e45e35;
+    font-size: 2rem;
+}
+
+div.jumbotron > p.lorem{
+    width: 70%;
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+div.jumbotron > h3{
+    color: gray;
+    font-size: 2.3rem;
+    margin-top: 1.3rem;
+}
+
+div.jumbotron > p.email{
+    color: gray;
+    font-size: 1.2rem;
+}
