@@ -36,7 +36,7 @@
    font-size: 5rem;
 }
 .vertical-center{
-    padding-top: 100px;
+    padding-top: 100px; 
     padding-bottom: 100px;
 }
 
@@ -123,4 +123,10 @@ section.main-lower{
     background-size: contain;
     background-size: 50px;
     background-color: #30333A;
+    justify-content: center;
+    align-items: center;
+}
+
+section.main-lower h4{
+    font-size: 1.5rem;
 }
